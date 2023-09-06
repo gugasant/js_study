@@ -1,0 +1,7 @@
+for (var i = 1 ; i < 21 ; i++) { console.log(i) }
+
+O que aconteceu? Os números de 1 a 20 foram exibidos no seu console. Isso acontece por causa do loop. Um loop for utiliza a inserção de três valores (argumentos):
+
+Um valor inicial: Nesse caso estamos iniciando a contagem em 1, mas poderia ser qualquer outro número que quisesse utilizar. Você pode substituir i por qualquer número que quiser também, mas i é utilizado por convenção porque é curto e fácil de lembrar.
+Uma condição de saída: Aqui nós especificamos i < 21 — o loop irá continuar rodando até que i não seja mais menor que 21. Quando i alcançar 21, o loop não será mais executado.
+Incremento: Nós especificamos i++, que siginifica "adicione 1 à i". O loop irá rodar uma vez para cada valor de i, até que i alcance o valor de 21 (como abordado acima). Nesse caso, nós estamos simplesmente imprimindo o valor de i no console em cada iteração usando console.log().
